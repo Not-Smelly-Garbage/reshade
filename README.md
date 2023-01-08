@@ -1,11 +1,25 @@
-ReShade
-=======
+## RESHADE UNLOCKED - NO DEPTH BUFFER DETECTION   
+   
+   I have edited a file to disable that annoying depth buffer lock when you are online. You do have to be wary though, I personally have not been banned from any game because of my use of this, but I know one thing for sure, you CAN NOT use reshade or any .dll modification on battle eye anticheat game. You will get banned almost right away if it does not disable it.
+   
+   Go to the releases tab to download the installers, I'm not gonna keep the source code up to date lol
 
-This is a generic post-processing injector for games and video software. It exposes an automated way to access both frame color and depth information and a custom shader language called ReShade FX to write effects like ambient occlusion, depth of field, color correction and more which work everywhere.
+   Anyways, I'm keeping all of the text below available if anyone would like to view it to do whatever.
+The file I have changed is ~
 
-ReShade can optionally load **add-ons**, DLLs that make use of the ReShade API to extend functionality of both ReShade and/or the application ReShade is being applied to. To get started on how to write your own add-on, check out the [API reference](REFERENCE.md).
+source \ runtime.cpp
 
-The ReShade FX shader compiler contained in this repository is standalone, so can be integrated into other projects as well. Simply add all `source/effect_*.*` files to your project and use it similar to the [fxc example](tools/fxc.cpp).
+If you want to build your own version, use the original repo by crosire, I haven't updated mine for a while
+
+All credit to u/TheGuyMadeOfCheese and u/Shamsiel_ on reddit, they taught me how to make these installers.
+
+I AM NOT RESPONSIBLE FOR ANY GAME BANS YOU GET USING THIS MODIFIED VERSION OF RESHADE, YOU SHOULD USE COMMON SENSE, AND NOT USE THIS ON GAMES BANNED ON THIS LIST
+https://www.pcgamingwiki.com/wiki/ReShade#Online_games_to_avoid
+
+## Video Tutorial
+https://vimeo.com/787218714
+
+(IN THE VIDEO I FUCKED SOMETHING UP LMAO - THE INSTALLER DIDNT WORK, IT SHOULD WORK FINE FOR YOU THOUGH...)
 
 ## Building
 
